@@ -121,7 +121,8 @@ public class FrameApp extends JFrame implements ActionListener{
         }
         //clear
         if(src.equals(clear)){
-
+            primes_list.selectAll();
+            primes_list.replaceSelection("");
         }
     }
 
